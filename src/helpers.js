@@ -21,3 +21,7 @@ export const execShellCommand = (cmd) => {
     });
   });
 }
+
+export default {
+  execShellCommand
+}

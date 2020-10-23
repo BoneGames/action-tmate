@@ -3,7 +3,6 @@ import fs from "fs"
 import path from "path"
 import * as core from "@actions/core"
 
-import { execShellCommand } from "./helpers"
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
